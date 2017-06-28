@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Duyen Doan's La Salle University</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<meta name="author" content="Duyen Doan">
+	
+	<style>
+		body {
+			text-align: center;
+			background: url('field.jpg')no-repeat center center fixed;
+			background-size: cover;
+		}
+		
+		#content {
+			width: 75%;
+			height: 100%;
+			margin: 40px auto;
+			background-color: rgba(255,255,255,0.8);
+			padding: 15px;
+		}
+		
+		h3::before {
+			content: url(icon.png);
+		}
+		
+		img {
+			width: 500px;
+		}
+		
+		a:link {
+			color: blue;
+			font-weight: bold;
+		}
+		
+		a:visited {
+			color: green;
+		}
+		
+		a:hover {
+			color: white;
+			background-color: yellow;
+		}
+		
+		p {
+			display: none;
+			background-color: rgba(0,0,0,0.2);
+			padding: 20px;
+			border-radius: 5px;
+		}
+		
+		#divAuthor:hover #pInfo{
+			display: block;
+		}
+		
+		::selection {
+			color: white;
+			background-color: green;
+		}
+		
+		footer {
+			display: block;
+			margin-top: 100px;
+			margin-bottom: 10px;
+		}
+		
+		hr {
+			border: 2px double rgba(0,0,0,0.2);
+		}
+	</style>
+
+</head>
+<body>
+<!-- Duyen Doan -->
+<div class="container-fluid">
+<div id="content">
+	<h1>The Beauty of La Salle in Different Weathers</h1>
+	<hr />
+	<h3>In the winter</h3>
+	<video width="500px" controls>
+	<source src="lasalle_snow.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+	</video>
+	<br />
+	<div id="divAuthor">
+		<cite>La Salle in the Snow - by Duyen Doan, March 15, 2017</cite>
+		<p id="pInfo">Duyen Doan is currently a senior, majoring in Information Technology. Class of 2017.</p>
+	</div>
+	
+	
+	<br /><br />
+
+	
+	<strong>Click here to listen to music while watching snow on campus</strong>
+	<br />
+	<audio controls>
+		<source src="spiritedaway.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+	
+	<br />
+	<cite>Spirited Away soundtrack from anime.thehylia.com</cite>
+	<br />
+	<a href="https://lasalle.edu" target="_blank">Click here</a> to visit my La Salle University
+	
+	<br /><br />
+	<img src="winter.jpg" id="imgWinter"/><br />
+	<cite> La Salle University in Winter 2016 by Duyen Doan</cite>
+	
+	<h3>In the Fall</h3>
+	<img src="fall.jpg" id="imgWinter"/><br />
+	<cite> La Salle University in Fall 2015 by Duyen Doan</cite>
+
+	<h3>In the Spring</h3>
+	<img src="spring.jpg" id="imgWinter"/><br />
+	<cite> La Salle University in Spring 2016 by Duyen Doan</cite>
+	
+	<h3>In the Summer</h3>
+	Worked hard to make money and forgot to take picture in the summer
+	
+	
+	<footer>
+	<hr />
+		Audio file from anime.thehylia.com.<br />
+		All clip and photos belong to Duyen Doan. All rights reserved.
+	</footer>
+</div>
+	
+</div>
+</body>
+</html>
